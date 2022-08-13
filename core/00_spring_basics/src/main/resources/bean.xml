@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- here we mention bean wiring -->
+	<!-- what dp spring follow ? GOF singleton dp -->
+	<!-- Lazy vs eager object creation?
+		if u are using ApplicationContext then it use eager approach to load the object : most of time it is ok ...
+		
+		lazy-init="true"
+	 -->
+	<!-- scope="prototype" or singleton from GOF -->
+	
+	<!-- autowring aka shortcut 
+	
+		primary="true" is used to avoid confusion
+		autowire-candidate="false"
+		-->
+		
+	<!-- ctr injection -->
+		
+	<!-- <bean id="p" class="com.demo.Passanger" autowire="constructor">
+		<constructor-arg index="0" value="raj"/>
+		
+	</bean>
+		
+	<bean id="v1" class="com.demo.Car" />
+	<bean id="v2" class="com.demo.Bike" primary="true"/> -->
+	
+		
+	 <bean id="p" class="com.demo.Passanger" autowire="byType" >
+		<property name="name" value="raj"/>
+	</bean>
+	<bean id="v1" class="com.demo.Car"/>
+	<bean id="v2" class="com.demo.Bike" primary="true"/> 
+
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
