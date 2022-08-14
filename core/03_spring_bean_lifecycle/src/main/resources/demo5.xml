@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="c" class="com.demo5.Company">
+		<property name="companyName" value="Infotech"/>
+		<property name="projects">
+			<map>
+				<entry key="raj" value-ref="p1"></entry>
+				<entry key="ekta" value-ref="p2"></entry>
+				<entry key="ramana" value-ref="p3"></entry>
+			</map>
+		</property>
+		
+		<property name="locations">
+		      <props>
+				<prop key="Sales">Banglore B1</prop>
+				<prop key="Mkt">Banglore B2</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="p1" class="com.demo5.Project">
+		<property name="id" value="43"/>
+		<property name="name" value="Migration from Struts to Spring boot for client ABC"/>
+		<property name="costing" value="66.8"/>
+	</bean>
+	
+	<bean id="p3" class="com.demo5.Project">
+		<property name="id" value="43"/>
+		<property name="name" value="Migration from Struts to Spring boot for client ABC"/>
+		<property name="costing" value="66.8"/>
+	</bean>
+	
+	<bean id="p2" class="com.demo5.Project">
+		<property name="id" value="53"/>
+		<property name="name" value="Teaching on clound to client AZX"/>
+		<property name="costing" value="6.8"/>
+	</bean>
+</beans>

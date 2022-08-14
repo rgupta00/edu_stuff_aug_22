@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="c" class="com.demo4.Company">
+		<property name="companyName" value="Infotech"/>
+		<property name="projects">
+			<set>
+				<ref bean="p1"/>
+				<ref bean="p2"/>
+				<ref bean="p3"/>
+			</set>
+		</property>
+	</bean>
+
+	<bean id="p1" class="com.demo4.Project">
+		<property name="id" value="43"/>
+		<property name="name" value="Migration from Struts to Spring boot for client ABC"/>
+		<property name="costing" value="66.8"/>
+	</bean>
+	
+	<bean id="p3" class="com.demo4.Project">
+		<property name="id" value="43"/>
+		<property name="name" value="Migration from Struts to Spring boot for client ABC"/>
+		<property name="costing" value="66.8"/>
+	</bean>
+	
+	<bean id="p2" class="com.demo4.Project">
+		<property name="id" value="53"/>
+		<property name="name" value="Teaching on clound to client AZX"/>
+		<property name="costing" value="6.8"/>
+	</bean>
+</beans>
