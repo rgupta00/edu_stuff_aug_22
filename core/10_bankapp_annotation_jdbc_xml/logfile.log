@@ -1,0 +1,3 @@
+ERROR | 2022-08-20 22:08:49 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - Exception occoured : com.bankapp.exceptions.BankAccountNotFoundException: account with id 5 is not found
+INFO  | 2022-08-20 22:13:34 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1007ms
+INFO  | 2022-08-20 23:21:15 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1029ms

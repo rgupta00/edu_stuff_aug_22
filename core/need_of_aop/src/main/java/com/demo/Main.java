@@ -8,7 +8,13 @@ public class Main {
 
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("demo.xml");
 		
+		Magician magician=ctx.getBean("magician", Magician.class);
+		String val= magician.doMagic("brown hat");
+		magician.doMagic1();
+		magician.eat();
 		
+		//System.out.println(val);
+		//System.out.println(magician.getClass());
 		
 	}
 
