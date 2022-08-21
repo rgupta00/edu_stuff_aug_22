@@ -1,0 +1,24 @@
+ERROR | 2022-08-20 22:08:49 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - Exception occoured : com.bankapp.exceptions.BankAccountNotFoundException: account with id 5 is not found
+INFO  | 2022-08-20 22:13:34 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1007ms
+INFO  | 2022-08-20 23:21:15 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1029ms
+INFO  | 2022-08-21 21:42:28 | [main] hibernate.Version (Version.java:45) - HHH000412: Hibernate Core {5.2.9.Final}
+INFO  | 2022-08-21 21:42:28 | [main] cfg.Environment (Environment.java:213) - HHH000206: hibernate.properties not found
+INFO  | 2022-08-21 21:42:28 | [main] java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO  | 2022-08-21 21:42:30 | [main] dialect.Dialect (Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  | 2022-08-21 21:42:32 | [main] internal.QueryTranslatorFactoryInitiator (QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+INFO  | 2022-08-21 21:43:01 | [main] hibernate.Version (Version.java:45) - HHH000412: Hibernate Core {5.2.9.Final}
+INFO  | 2022-08-21 21:43:01 | [main] cfg.Environment (Environment.java:213) - HHH000206: hibernate.properties not found
+INFO  | 2022-08-21 21:43:01 | [main] java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO  | 2022-08-21 21:43:02 | [main] dialect.Dialect (Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  | 2022-08-21 21:43:05 | [main] internal.QueryTranslatorFactoryInitiator (QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+INFO  | 2022-08-21 21:43:06 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1014ms
+INFO  | 2022-08-21 21:43:35 | [main] hibernate.Version (Version.java:45) - HHH000412: Hibernate Core {5.2.9.Final}
+INFO  | 2022-08-21 21:43:35 | [main] cfg.Environment (Environment.java:213) - HHH000206: hibernate.properties not found
+INFO  | 2022-08-21 21:43:35 | [main] java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO  | 2022-08-21 21:43:36 | [main] dialect.Dialect (Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  | 2022-08-21 21:45:48 | [main] hibernate.Version (Version.java:45) - HHH000412: Hibernate Core {5.2.9.Final}
+INFO  | 2022-08-21 21:45:48 | [main] cfg.Environment (Environment.java:213) - HHH000206: hibernate.properties not found
+INFO  | 2022-08-21 21:45:48 | [main] java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO  | 2022-08-21 21:45:49 | [main] dialect.Dialect (Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  | 2022-08-21 21:45:52 | [main] internal.QueryTranslatorFactoryInitiator (QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+INFO  | 2022-08-21 21:45:54 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1017ms

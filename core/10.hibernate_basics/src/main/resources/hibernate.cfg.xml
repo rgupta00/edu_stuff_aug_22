@@ -17,7 +17,7 @@
 
 		<property name="format_sql">true</property>
 		<!-- validate , create, create-drop udate -->
-		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.hbm2ddl.auto">validate</property>
 		<!-- jdbc connection pool build in  -->
 		<property name="connection.pool_size">10</property>
 		<!-- hey hiberante create a new hibernate session and put that into context of current thread -->
