@@ -22,3 +22,9 @@ INFO  | 2022-08-21 21:45:48 | [main] java.JavaReflectionManager (JavaReflectionM
 INFO  | 2022-08-21 21:45:49 | [main] dialect.Dialect (Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
 INFO  | 2022-08-21 21:45:52 | [main] internal.QueryTranslatorFactoryInitiator (QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
 INFO  | 2022-08-21 21:45:54 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1017ms
+INFO  | 2022-08-27 21:31:34 | [main] hibernate.Version (Version.java:45) - HHH000412: Hibernate Core {5.2.9.Final}
+INFO  | 2022-08-27 21:31:34 | [main] cfg.Environment (Environment.java:213) - HHH000206: hibernate.properties not found
+INFO  | 2022-08-27 21:31:34 | [main] java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO  | 2022-08-27 21:31:37 | [main] dialect.Dialect (Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  | 2022-08-27 21:31:43 | [main] internal.QueryTranslatorFactoryInitiator (QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+INFO  | 2022-08-27 21:31:44 | [main] util.BankAppLoggingAspect (BankAppLoggingAspect.java:37) - time taken to execute transfer method is : 1026ms
